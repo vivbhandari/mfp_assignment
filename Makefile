@@ -1,6 +1,6 @@
 .PHONY: all test clean
 
-IMAGE=vivekassignments/mfp_server
+IMAGE=vivekbhandari/mfp_server
 VERSION=7
 
 prepare:

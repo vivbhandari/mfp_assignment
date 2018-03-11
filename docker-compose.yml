@@ -1,13 +1,13 @@
 version: '3.1'
 services:
   server1:
-    image: vivekassignments/mfp_server:7
+    image: vivekbhandari/mfp_server:7
     tty: true
     hostname: server1
     networks: 
       - mynet123
   server2:
-    image: vivekassignments/mfp_server:7
+    image: vivekbhandari/mfp_server:7
     tty: true
     hostname: server2
     networks: 
