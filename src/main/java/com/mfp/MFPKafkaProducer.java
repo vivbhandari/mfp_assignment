@@ -14,7 +14,7 @@ public class MFPKafkaProducer {
 
 	public MFPKafkaProducer() {
 		props = new Properties();
-		props.put("bootstrap.servers", "kafka1:9092");
+		props.put("bootstrap.servers", "kafka1:9092,kafka2:9093,kafka3:9094");
 		props.put("acks", "all");
 		props.put("retries", 0);
 		props.put("batch.size", 16384);

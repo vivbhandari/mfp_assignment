@@ -21,7 +21,7 @@ public class MFPKafkaConsumer implements Runnable {
 
 	public void run() {
 		Properties props = new Properties();
-		props.put("bootstrap.servers", "kafka1:9092");
+		props.put("bootstrap.servers", "kafka1:9092,kafka2:9093,kafka3:9094");
 		props.put("group.id", Main.CONTAINER);
 		props.put("enable.auto.commit", "true");
 		props.put("auto.commit.interval.ms", "1000");
